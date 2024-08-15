@@ -12,8 +12,8 @@ header, img {
 nav {
     background-color: black;
     border-radius: 10px;
-    padding: 10px 0;
-    width: 50%;
+    padding: 15px 0;
+    width: 70%;
     margin: 0 auto;
 }
 nav ul {
@@ -35,17 +35,19 @@ nav a {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
+    margin: 15px auto;
+    width: 70%;
 }
 
-
-.image-container {
+.promotional-banner {
     position: relative;
-    width: 50%;
+    width: 100%;
+    margin-bottom: 15px;
 }
-.image-container img {
+.promotional-banner img {
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -70,4 +72,38 @@ main {
 .text-overlay p {
     margin: 10px 0 0;
     font-size: 16px;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.column {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.column h2 {
+    margin-top: 0;
+}
+.column p {
+    margin-bottom: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+    width: 70%;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer p {
+    margin: 0;
+    text-align: right;
 }
