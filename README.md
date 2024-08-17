@@ -1,3 +1,3 @@
-# restaraunt-menu
+# restaraunt-webpage
 
-A restaraunt menu built for a fictional client using HTML and CSS
+A restaraunt webpage built for a fictional client using HTML and CSS
